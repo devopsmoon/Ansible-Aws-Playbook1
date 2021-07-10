@@ -26,6 +26,7 @@
         region: "{{region}}"
         az: "{{zone1}}"
         state: "{{state}}"
+        cidr: "{{pubsub1cidr}}"
         map_public: yes
         rescoure_tags:
           name: pubsub1
