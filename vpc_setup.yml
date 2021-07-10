@@ -28,6 +28,6 @@
         state: "{{state}}"
         cidr: "{{ pubsub1cidr }}"
         map_public: yes
-        tags:
+        resource_tags:
           name: pubsub1
       register: pubsub1_out
