@@ -30,4 +30,4 @@
         map_public: yes
         rescoure_tags:
           name: pubsub1
-      register: pubusb1_out
+      register: pubsub1_out
