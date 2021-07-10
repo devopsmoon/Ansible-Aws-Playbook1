@@ -28,6 +28,6 @@
         vpc_id: "{{vpcout.vpc.id}}"
         region: "{{region}}"
         map_public: yes
-        rescoure_tags:
+        tags:
           name: pubsub1
       register: pubsub1_out
