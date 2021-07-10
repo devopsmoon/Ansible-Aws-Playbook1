@@ -22,11 +22,11 @@
 
     - name: this will create  public subnet1 in zone1
       ec2_vpc_subnet:
-        state: "{{state}}"
-        cidr: "{{pubsub1cidr}}"
-        az: "{{zone1}}"
         vpc_id: "{{vpcout.vpc.id}}"
-        region: "{{region}}"
+        region: "{{ region }}"
+        az: "{{ zone1 }}"
+        state: "{{state}}"
+        cidr: "{{ pubsub1cidr }}"
         map_public: yes
         tags:
           name: pubsub1
